@@ -1,0 +1,7 @@
+rootProject.name='DemoPhotoShop'
+include ':PhotoShop'
+include ':crop'
+include ':camera'
+include ':galery'
+include ':image'
+include ':opencv430'
