@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DemoPhotoShop.iml" filepath="$PROJECT_DIR$/DemoPhotoShop.iml" group="DemoPhotoShop" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoShop/PhotoShop.iml" filepath="$PROJECT_DIR$/PhotoShop/PhotoShop.iml" group="DemoPhotoShop/PhotoShop" />
+      <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" group="DemoPhotoShop/camera" />
+      <module fileurl="file://$PROJECT_DIR$/crop/crop.iml" filepath="$PROJECT_DIR$/crop/crop.iml" group="DemoPhotoShop/crop" />
+      <module fileurl="file://$PROJECT_DIR$/galery/galery.iml" filepath="$PROJECT_DIR$/galery/galery.iml" group="DemoPhotoShop/galery" />
+      <module fileurl="file://$PROJECT_DIR$/image/image.iml" filepath="$PROJECT_DIR$/image/image.iml" group="DemoPhotoShop/image" />
+      <module fileurl="file://$PROJECT_DIR$/opencv430/opencv430.iml" filepath="$PROJECT_DIR$/opencv430/opencv430.iml" group="DemoPhotoShop/opencv430" />
+    </modules>
+  </component>
+</project>

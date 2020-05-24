@@ -1,14 +1,23 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+ImageCaptureConfig config =
+                new UseCaseConfig.Builder()
+                        .setTargetRotation(getWindowManager().getDefaultDisplay().getRotation())
+                        .build();
+        imageCapture = new ImageCapture(config);
+
+        File photoFile = new File(
+                outputDirectory,
+                new SimpleDateFormat(FILENAME_FORMAT, Locale.US
+                ).format(System.currentTimeMillis()) + ".jpg");
+
+        ImageCapture.OutputFileOptions outputOptions = new ImageCapture.OutputFileOptions.Builder(photoFile).build();
+        imageCapture.takePicture(outputOptions, getMainExecutor(), new ImageCapture.OnImageSavedCallback() {
+            @Override
+            public void onImageSaved(@NonNull ImageCapture.OutputFileResults outputFileResults) {
+                Toast.makeText(CaneraActivity.this, "Foto guardada!!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onError(@NonNull ImageCaptureException exception) {
+                Log.e(TAG, "Photo capture failed: ${exc.message}", exception);
+            }
+        });
