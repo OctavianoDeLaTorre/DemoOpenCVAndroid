@@ -7,28 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5c24ba0-a495-4f28-9164-350c85c34a49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhotoShop/src/main/jniLibs/arm64-v8a/libopencv_java4.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhotoShop/src/main/jniLibs/armeabi-v7a/libopencv_java4.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhotoShop/src/main/jniLibs/x86/libopencv_java4.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PhotoShop/src/main/jniLibs/x86_64/libopencv_java4.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera/src/main/java/com/example/camera/CaneraActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera/src/main/res/layout/activity_manera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/camera/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv430/build/generated/aidl_source_output_dir/debug/out/org/opencv/engine/OpenCVEngineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opencv430/build/generated/source/buildConfig/debug/org/opencv/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoShop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoShop/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhotoShop/PhotoShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/PhotoShop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoShop/src/main/java/com/example/demophotoshop/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/src/main/java/com/example/demophotoshop/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PhotoShop/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/camera/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/camera/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera/camera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/camera/camera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camera/src/main/java/com/example/camera/CaneraActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/camera/src/main/java/com/example/camera/CaneraActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop/crop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crop/crop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galery/galery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/galery/galery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/image/image.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opencv430/opencv430.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opencv430/opencv430.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_R" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="de119069" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -50,6 +38,11 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Octaviano De La Torre &lt;octavianodelatorre@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cJsbCvMTFIF26ZN4moTnv6rSS9" />
@@ -213,6 +206,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590258099188</updated>
     </task>
+    <task id="LOCAL-00001" summary="Agregar camaraX">
+      <created>1590287436050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590287436050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,5 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Agregar camaraX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar camaraX" />
   </component>
 </project>

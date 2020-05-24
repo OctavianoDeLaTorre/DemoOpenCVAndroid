@@ -1,7 +1,10 @@
 package com.example.camera;
 
 import android.Manifest;
+import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -46,6 +49,7 @@ public class CaneraActivity extends AppCompatActivity {
     private static String FILENAME_FORMAT = "yyyy-MM-dd-HH-mm-ss-SSS";
     private static int REQUEST_CODE_PERMISSIONS = 10;
     private static String[] REQUIRED_PERMISSIONS = new String[]{Manifest.permission.CAMERA,Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE};
+    public static final String IMAGE_URI = "imageUri";
 
     private Preview preview = null;
     private ImageCapture imageCapture = null;
@@ -147,6 +151,12 @@ public class CaneraActivity extends AppCompatActivity {
             @Override
             public void onImageSaved(@NonNull ImageCapture.OutputFileResults outputFileResults) {
                 Toast.makeText(CaneraActivity.this, "Foto guardada!!", Toast.LENGTH_SHORT).show();
+                Uri imageUri = Uri.fromFile(photoFile);
+                Intent returnIntent = new Intent();
+                returnIntent.putExtra(IMAGE_URI,imageUri.toString());
+                setResult(Activity.RESULT_OK,returnIntent);
+                finish();
+
             }
 
             @Override
