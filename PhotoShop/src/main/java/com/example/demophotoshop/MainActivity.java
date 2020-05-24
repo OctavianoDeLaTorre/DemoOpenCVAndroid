@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.camera.CaneraActivity;
+import com.example.image.ImageActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void openGalery(View v){
         startActivityForResult(new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI), IMAGE_SELECT_FROM_GALERY);
+    }
+
+    public void openEditActivity(View v){
+        startActivity(new Intent(this, ImageActivity.class));
     }
 
     @Override
