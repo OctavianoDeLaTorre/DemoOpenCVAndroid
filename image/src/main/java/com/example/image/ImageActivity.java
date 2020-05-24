@@ -24,9 +24,9 @@ import java.io.OutputStream;
 public class ImageActivity extends Activity {
 
     public static final String IMAGE_URI = "imageUri";
-
     private ImageView imageView;
 
+    //Iniciar openCV
     private static boolean initOpenCV;
     static { initOpenCV = OpenCVLoader.initDebug(); }
 
@@ -35,10 +35,12 @@ public class ImageActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image);
 
+        //Verificar si openCV inicio correctamente
         if (initOpenCV){
             Toast.makeText(this,"OpenCV iniciado",Toast.LENGTH_LONG).show();
         }
 
+        //Obtener uri de imagen
         Bundle parametros = this.getIntent().getExtras();
         String imageUri = parametros.getString(IMAGE_URI);
 
@@ -47,10 +49,13 @@ public class ImageActivity extends Activity {
     }
 
     public void escalaGrises(View v){
+        //Convertir bitmat a mat
         Bitmap bmp = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
         Mat tmp = new Mat (bmp.getWidth(), bmp.getHeight(), CvType.CV_8UC1);
         Utils.bitmapToMat(bmp, tmp);
+        //Convertir a escala de grises
         Imgproc.cvtColor(tmp, tmp, Imgproc.COLOR_RGB2GRAY);
+        //Convertir a bitmat
         Utils.matToBitmap(tmp, bmp);
         imageView.setImageBitmap(bmp);
     }

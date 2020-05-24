@@ -11,6 +11,13 @@ android {
         versionCode 1
         versionName "1.0"
 
+        externalNativeBuild {
+            cmake {
+                cppFlags "-std=c++11"
+                arguments "-DANDROID_STL=c++_shared"
+            }
+        }
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -26,6 +33,15 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
+
+
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
 
 }
 

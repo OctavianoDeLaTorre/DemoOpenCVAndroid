@@ -16,10 +16,12 @@ import com.example.image.ImageActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Id para la solicitud recibida en onActivityResult
     private static final int IMAGE_FROM_CAMERA = 666;
     private static final int IMAGE_SELECT_FROM_GALERY = 555;
 
     private ImageView imageView;
+    private Uri imageUri ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +40,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openEditActivity(View v){
-        startActivity(new Intent(this, ImageActivity.class));
+        Bundle parmetros = new Bundle();
+        parmetros.putString(ImageActivity.IMAGE_URI, imageUri.toString());
+        Intent i = new Intent(this, ImageActivity.class);
+        i.putExtras(parmetros);
+        startActivity(i);
     }
 
     @Override
@@ -46,11 +52,13 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
          if (resultCode == Activity.RESULT_OK){
             if (requestCode == IMAGE_FROM_CAMERA){
-                Uri imageUri = Uri.parse(data.getStringExtra(CaneraActivity.IMAGE_URI));
+                imageUri = Uri.parse(data.getStringExtra(CaneraActivity.IMAGE_URI));
                 imageView.setImageURI(imageUri);
             } else if (requestCode == IMAGE_SELECT_FROM_GALERY){
-                imageView.setImageURI(data.getData());
+                imageUri = data.getData();
+                imageView.setImageURI(imageUri);
             }
          }
     }
+
 }
