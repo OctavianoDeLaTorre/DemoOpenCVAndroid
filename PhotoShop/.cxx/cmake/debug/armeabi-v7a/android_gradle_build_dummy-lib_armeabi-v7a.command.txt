@@ -1,0 +1,7 @@
+Executable : /home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/armeabi-v7a
+dummy-lib
+jvmArgs : 
+

@@ -1,0 +1,2 @@
+ninja: Entering directory `/home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/armeabi-v7a'
+ninja: no work to do.

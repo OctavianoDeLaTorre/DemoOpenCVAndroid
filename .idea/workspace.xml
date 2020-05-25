@@ -8,13 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c24ba0-a495-4f28-9164-350c85c34a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoShop/PhotoShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/PhotoShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoShop/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhotoShop/src/main/java/com/example/demophotoshop/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/PhotoShop/src/main/java/com/example/demophotoshop/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/image.iml" beforeDir="false" afterPath="$PROJECT_DIR$/image/image.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/src/main/java/com/example/image/ImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/image/src/main/java/com/example/image/ImageActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/src/main/res/layout/activity_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/image/src/main/res/layout/activity_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv430/opencv430.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opencv430/opencv430.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590357849046</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Agregar comentarios">
+      <created>1590358191659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590358191659</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +254,7 @@
     <MESSAGE value="Agregar camaraX" />
     <MESSAGE value="Abrir imagens desde galeria" />
     <MESSAGE value="Agregar icono de camara" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar icono de camara" />
+    <MESSAGE value="Agregar comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar comentarios" />
   </component>
 </project>
