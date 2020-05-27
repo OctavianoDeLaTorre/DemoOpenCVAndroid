@@ -12,7 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.camera.core.Camera;
 import androidx.camera.core.CameraSelector;
-import androidx.camera.core.CameraX;
 import androidx.camera.core.ImageAnalysis;
 import androidx.camera.core.ImageCapture;
 import androidx.camera.core.ImageCaptureException;
@@ -24,7 +23,6 @@ import com.google.common.util.concurrent.ListenableFuture;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.camera.core.impl.ImageCaptureConfig;
 
 import androidx.camera.lifecycle.ProcessCameraProvider;
 import androidx.camera.view.PreviewView;
@@ -123,7 +121,6 @@ public class CaneraActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.P)
     private void takePhoto() {
-
         imageCapture = new ImageCapture.Builder()
                 .setTargetRotation(getWindowManager().getDefaultDisplay().getRotation())
                 .build();

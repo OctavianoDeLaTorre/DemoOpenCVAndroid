@@ -3,17 +3,17 @@ The host system is: Linux - 5.6.14-050614-generic - x86_64
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_dc4b3"
-[1/2] Building C object CMakeFiles/cmTC_dc4b3.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_dc4b3
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2b474"
+[1/2] Building C object CMakeFiles/cmTC_2b474.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_2b474
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3d64b"
-[1/2] Building C object CMakeFiles/cmTC_3d64b.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_3d64b
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2259b"
+[1/2] Building C object CMakeFiles/cmTC_2259b.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_2259b
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: i686-none-linux-android21
 Thread model: posix
@@ -23,16 +23,16 @@ Found candidate GCC installation: /home/octaviano/Android/Sdk/ndk/20.0.5594570/t
 Selected GCC installation: /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3d64b /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_3d64b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+ "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_2259b /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_2259b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3d64b"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_3d64b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_3d64b]
+  ignore line: [Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2259b"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_2259b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_2259b]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: i686-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -44,7 +44,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_3d64b /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_3d64b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+  link line: [ "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_2259b /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_2259b.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
     arg [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -58,7 +58,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_3d64b] ==> ignore
+    arg [cmTC_2259b] ==> ignore
     arg [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386] ==> dir [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386]
     arg [-L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -76,7 +76,7 @@ Parsed C implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_3d64b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_2259b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -99,9 +99,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_070da"
-[1/2] Building C object CMakeFiles/cmTC_070da.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_070da
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b5a6d"
+[1/2] Building C object CMakeFiles/cmTC_b5a6d.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_b5a6d
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -113,9 +113,9 @@ Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fea72"
-[1/2] Building C object CMakeFiles/cmTC_fea72.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_fea72
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f4df6"
+[1/2] Building C object CMakeFiles/cmTC_f4df6.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_f4df6
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -127,9 +127,9 @@ Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_bdc60"
-[1/2] Building C object CMakeFiles/cmTC_bdc60.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_bdc60
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a33a1"
+[1/2] Building C object CMakeFiles/cmTC_a33a1.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_a33a1
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -139,17 +139,17 @@ Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ee368"
-[1/2] Building CXX object CMakeFiles/cmTC_ee368.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_ee368
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a844d"
+[1/2] Building CXX object CMakeFiles/cmTC_a844d.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_a844d
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_112b7"
-[1/2] Building CXX object CMakeFiles/cmTC_112b7.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_112b7
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b10ef"
+[1/2] Building CXX object CMakeFiles/cmTC_b10ef.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_b10ef
 Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)
 Target: i686-none-linux-android21
 Thread model: posix
@@ -159,16 +159,16 @@ Found candidate GCC installation: /home/octaviano/Android/Sdk/ndk/20.0.5594570/t
 Selected GCC installation: /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x
 Candidate multilib: .;@m32
 Selected multilib: .;@m32
- "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_112b7 /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_112b7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
+ "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b10ef /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_b10ef.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(i686-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_112b7"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_112b7.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_112b7]
+  ignore line: [Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b10ef"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_b10ef.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_b10ef]
   ignore line: [Android (5220042 based on r346389c) clang version 8.0.7 (https://android.googlesource.com/toolchain/clang b55f2d4ebfd35bf643d27dbca1bb228957008617) (https://android.googlesource.com/toolchain/llvm 3c393fe7a7e13b0fba4ac75a01aa683d7a5b11cd) (based on LLVM 8.0.7svn)]
   ignore line: [Target: i686-none-linux-android21]
   ignore line: [Thread model: posix]
@@ -180,7 +180,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m32]
   ignore line: [Selected multilib: .]
   ignore line: [@m32]
-  link line: [ "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_112b7 /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_112b7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
+  link line: [ "/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld" --sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_i386 -dynamic-linker /system/bin/linker -o cmTC_b10ef /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21 -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/lib -L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_b10ef.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc -ldl -lc -lgcc -ldl /home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtend_android.o]
     arg [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld] ==> ignore
     arg [--sysroot=/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -194,7 +194,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_112b7] ==> ignore
+    arg [cmTC_b10ef] ==> ignore
     arg [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/i686-linux-android/21/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386] ==> dir [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/8.0.7/lib/linux/i386]
     arg [-L/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x] ==> dir [/home/octaviano/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9.x]
@@ -212,7 +212,7 @@ Parsed CXX implicit link information from above output:
     arg [--no-undefined] ==> ignore
     arg [-znoexecstack] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_112b7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b10ef.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -237,9 +237,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_07f80"
-[1/2] Building CXX object CMakeFiles/cmTC_07f80.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_07f80
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ac29c"
+[1/2] Building CXX object CMakeFiles/cmTC_ac29c.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_ac29c
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -304,9 +304,9 @@ Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4ac9a"
-[1/2] Building CXX object CMakeFiles/cmTC_4ac9a.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_4ac9a
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3c3ef"
+[1/2] Building CXX object CMakeFiles/cmTC_3c3ef.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_3c3ef
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -371,9 +371,9 @@ Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_62bc7"
-[1/2] Building CXX object CMakeFiles/cmTC_62bc7.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_62bc7
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2c7d6"
+[1/2] Building CXX object CMakeFiles/cmTC_2c7d6.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_2c7d6
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -438,9 +438,9 @@ Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/.cxx/cmake/debug/x86/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d5669"
-[1/2] Building CXX object CMakeFiles/cmTC_d5669.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_d5669
+Run Build Command:"/home/octaviano/Android/Sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_acbcf"
+[1/2] Building CXX object CMakeFiles/cmTC_acbcf.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_acbcf
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

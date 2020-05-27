@@ -175,6 +175,7 @@
       "project": {
         "compilerSettingsCacheFolder": "/home/octaviano/AndroidStudioProjects/DemoPhotoShop/.cxx",
         "cxxFolder": "/home/octaviano/AndroidStudioProjects/DemoPhotoShop/.cxx",
+        "ideBuildTargetAbi": "x86",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -197,10 +198,7 @@
     "objFolder": "/home/octaviano/AndroidStudioProjects/DemoPhotoShop/PhotoShop/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
+      "X86"
     ]
   }
 }
