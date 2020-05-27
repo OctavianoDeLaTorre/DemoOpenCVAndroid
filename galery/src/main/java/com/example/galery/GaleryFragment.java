@@ -16,7 +16,6 @@ import android.widget.ImageView;
  */
 public class GaleryFragment extends Fragment {
     private static final String IMAGE_URI = "imageUri";
-
     private ImageView imageView;
     private Uri uriImage;
 
@@ -25,13 +24,14 @@ public class GaleryFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_galery, container, false);
+        // Uri de la imagen editada
         uriImage = Uri.parse(getArguments().getString(IMAGE_URI));
-
         confiViews(root);
         return root;
     }
 
     private void confiViews(View root) {
+        // Instanciar vista
         imageView = root.findViewById(R.id.imageView);
         imageView.setImageURI(uriImage);
     }

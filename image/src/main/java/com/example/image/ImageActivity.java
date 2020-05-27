@@ -82,7 +82,6 @@ public class ImageActivity extends AppCompatActivity {
     public void openFragment(){
         Bundle args = new Bundle();
         args.putString(IMAGE_URI,imageUri);
-
         // Crear fragmento de tu clase
         Fragment fragment = new GaleryFragment();
         fragment.setArguments(args);
